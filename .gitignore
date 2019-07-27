@@ -1,0 +1,6 @@
+.build/
+.sconsign.dblite
+mini-prog
+mini-prog.unstripped
+prog
+progs/
