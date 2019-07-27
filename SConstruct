@@ -76,8 +76,8 @@ def comparebins():
 
   diff = min_size - reg_size
 
-  print(f"{reg_path} > {lj(reg_size)}")
-  print(f"{min_path} > {lj(min_size)}  ({lj(diff)}")
+  print(f"{reg_path} > {lj(reg_size)}  ({lj('base')}) <no flags>")
+  print(f"{min_path} > {lj(min_size)}  ({lj(diff)}) <all flags>")
 
   for p in all_progs:
     p_data = open(p.path, 'rb').read()

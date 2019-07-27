@@ -1,8 +1,8 @@
 Comparison of various flags & features.
 
 ```
-prog                       > 94408 
-mini-prog                  > 14040   (-80368
+prog                       > 94408   (base  ) <no flags>
+mini-prog                  > 14040   (-80368) <all flags>
 progs/prog-0.unstripped    > 110680  (16272 ) -DWITH_SMART_PTR
 progs/prog-0               > 59192   (-35216) -DWITH_SMART_PTR
 progs/prog-1.unstripped    > 93952   (-456  ) -fno-exceptions
@@ -33,4 +33,5 @@ progs/prog-13.unstripped   > 94408   (0     ) -Wl,-z,norelro
 progs/prog-13              > 51000   (-43408) -Wl,-z,norelro
 progs/prog-14.unstripped   > 94408   (0     ) -Wl,--build-id=none
 progs/prog-14              > 51000   (-43408) -Wl,--build-id=none
+
 ```
